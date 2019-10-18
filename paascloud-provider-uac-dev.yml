@@ -5,9 +5,9 @@ spring:
     joda-date-time-format: yyyy-MM-dd HH:mm:ss
     date-format: yyyy-MM-dd HH:mm:ss
   datasource:
-    url: jdbc:mysql://paascloud-db-mysql:3306/paascloud_uac?characterEncoding=utf8&useSSL=false
-    username: paascloud
-    password: paascloud
+    url: jdbc:mysql://paascloud-db-mysql:3306/paascloud_uac517?characterEncoding=utf8&useSSL=false
+    username: root
+    password: root
 mybatis:
   type-aliases-package: com.paascloud.provider.model.domain
   mapper-locations: classpath:mapper/*.xml,classpath*:sdk/mapper/*.xml
